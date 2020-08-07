@@ -3,7 +3,7 @@ import React from 'react';
 import './Post.css';
 
 const post = (props) => (
-	<article className="Post">
+	<article className="Post" onClick={props.clicked}>
 		<h1>{props.title}</h1>
 		<h1>Title</h1>
 		<div className="Info">
